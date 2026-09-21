@@ -182,16 +182,16 @@ The following tables summarize the results collected during both practical tasks
 
 | # | Link | Relevant Dork | Credentials | Status |
 |---|---|---|---|---|
-| 1 | `http://109.233.191.130:8080/multi.html` | `intitle:"webcamXP 5"` | None | :white_check_mark: Found |
-| 2 | `http://79.157.102.84:82/index.cgi` | `intitle:"NETWORK IP CAMERA"` | Protected (Login Required) | :white_check_mark: Found |
-| 3 | `http://66.206.54.197` | `intitle:"Express 6" "VIDEO SERVER"` | None | :white_check_mark: Found |
-| 4 | `https://www.stonecircle.us/WebCam/cam.html` | `intitle:"Birom Soft WebCam"` | None | :white_check_mark: Found |
-| 5 | `http://www.users.globalnet.co.uk/~castanea/camera1.htm` | `intitle:"SupervisionCam Protocol"` | None | :white_check_mark: Found |
-| 6 | `http://80.60.230.12/ViewerFrame?Mode=Refresh` | `inurl:"ViewerFrame?Mode="` | None | :white_check_mark: Found |
-| 7 | `http://208.72.70.171/view/viewer_index.shtml` | `intitle:"Live View / - AXIS"` | None | :white_check_mark: Found |
-| 8 | `http://61.211.241.229/` | `intitle:"Network Camera NetworkCamera"` | None | :white_check_mark: Found |
-| 9 | `http://195.235.198.107/view.shtml` | `inurl:"/view.shtml" intitle:"Live View"` | None | :white_check_mark: Found |
-| 10 | `http://128.171.181.238/webcam.html` | `intitle:"EvoCam" inurl:"webcam.html"` | None | :white_check_mark: Found |
+| 1 | `[redacted]` | `intitle:"webcamXP 5"` | None | :white_check_mark: Found |
+| 2 | `[redacted]` | `intitle:"NETWORK IP CAMERA"` | Protected (Login Required) | :white_check_mark: Found |
+| 3 | `[redacted]` | `intitle:"Express 6" "VIDEO SERVER"` | None | :white_check_mark: Found |
+| 4 | `[redacted]` | `intitle:"Birom Soft WebCam"` | None | :white_check_mark: Found |
+| 5 | `[redacted]` | `intitle:"SupervisionCam Protocol"` | None | :white_check_mark: Found |
+| 6 | `[redacted]` | `inurl:"ViewerFrame?Mode="` | None | :white_check_mark: Found |
+| 7 | `[redacted]` | `intitle:"Live View / - AXIS"` | None | :white_check_mark: Found |
+| 8 | `[redacted]` | `intitle:"Network Camera NetworkCamera"` | None | :white_check_mark: Found |
+| 9 | `[redacted]` | `inurl:"/view.shtml" intitle:"Live View"` | None | :white_check_mark: Found |
+| 10 | `[redacted]` | `intitle:"EvoCam" inurl:"webcam.html"` | None | :white_check_mark: Found |
 
 ---
 
@@ -296,19 +296,19 @@ The authorized scan against the `/24` local area network successfully enumerated
 * **Command Executed:** `nmap -sn 192.168.55.0/24`
 
 **Identified IP & MAC Addresses:**
-* `192.168.55.1` (Gateway) — `1c-d1-1a-e6-0a-6a`
-* `192.168.55.51` — `80-be-af-19-2e-b2`
-* `192.168.55.52` — `cc-2d-e0-bc-54-31`
-* `192.168.55.58` — `ac-81-12-68-bd-08`
-* `192.168.55.59` — `2c-b0-5d-bd-81-2e`
-* `192.168.55.60` — `f0-7b-cb-37-3d-e9`
-* `192.168.55.70` — `b2-9d-5f-4b-a6-0d`
-* `192.168.55.73` — `54-b5-6c-12-de-d5`
-* `192.168.55.84` — `c2-cb-13-23-fc-07`
-* `192.168.55.96` — `1a-d5-dd-a8-5b-9e`
-* `192.168.55.97` (Local Workstation) — `2C-DB-07-CD-58-D4`
-* `192.168.55.124` — *(No MAC resolved)*
-* `192.168.55.151` — `00-00-54-ff-c1-27`
+* `192.168.55.1` (Gateway) — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.51` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.52` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.58` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.59` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.60` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.70` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.73` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.84` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.96` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.97` (Local Workstation) — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.124` — `XX-XX-XX-XX-XX-XX`
+* `192.168.55.151` — `XX-XX-XX-XX-XX-XX`
 
 ---
 
