@@ -1,4 +1,4 @@
-# 🌐 Domain Footprinting & Information Gathering - Week 2
+# 🌐 Footprinting & & Network Scanning - Week 2
 
 ## 📌 Project Overview
 
