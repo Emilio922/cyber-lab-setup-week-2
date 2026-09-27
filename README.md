@@ -61,7 +61,7 @@ Queries public domain registration records to extract registrar information, reg
 whois networkwalks.com > whois-output.txt
 ```
 
-![Kali Linux running](images/whois-output.png)
+![WHOIS Output](images/whois-output.png)
 
 ---
 
@@ -74,7 +74,7 @@ Fingerprints the target web application to expose web server versions, CMS infra
 
 whatweb networkwalks.com > whatweb-output.txt
 
-![Kali Linux running](images/whatweb-output.png)
+![WhatWeb Output](images/whatweb-output.png)
 
 ---
 
@@ -86,7 +86,7 @@ Performs a Domain Name System lookup to resolve the target domain to its active 
 nslookup networkwalks.com > nslookup-output.txt
 
 
-![Kali Linux running](images/nslookup-output.png)
+![NSLookup Output](images/nslookup-output.png)
 
 
 ---
@@ -99,7 +99,7 @@ Retrieves raw HTTP/HTTPS server headers to analyze server architecture, caching 
 curl -I [https://networkwalks.com](https://networkwalks.com) > curl-output.txt
 
 
-![Kali Linux running](images/curl-output.png)
+![cURL Output](images/curl-output.png)
 
 ---
 
@@ -112,7 +112,7 @@ Profiles the web server to identify active Web Application Firewall (WAF) produc
 wafw00f [https://networkwalks.com](https://networkwalks.com) -o wafw00f-output.txt
 
 
-![Kali Linux running](images/wafw00f-output.png)
+![WAF Detection Output](images/wafw00f-output.png)
 
 ---
 
@@ -124,7 +124,7 @@ Scans the target zone to harvest core DNS record types (A, NS, MX, SOA) and map 
 dnsrecon -d networkwalks.com &> dnsrecon-output.txt
 
 
-![Kali Linux running](images/dnsrecon-output.png)
+![DNSRecon Output](images/dnsrecon-output.png)
 
 
 ---
@@ -137,8 +137,7 @@ Confirms that all output logs were captured and non-empty.
 ls -lh *.txt
 
 
-![Kali Linux running](images/file-verification.png)
-
+![File Verification](images/file-verification.png)
 
 
 
